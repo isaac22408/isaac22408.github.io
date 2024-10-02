@@ -9,6 +9,10 @@
     padding: 100px auto;
     background-color: white;
     table-layout: auto;
+    position: fixed;
+}
+#fix-nav{
+    height: 100px;
 }
 .boton-nav-inter{
 color: black;
