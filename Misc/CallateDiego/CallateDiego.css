@@ -15,6 +15,7 @@ color: black;
 font-family: Helvetica;
 text-align: justify;
 padding: 20px;
+width: max-content;
 margin: 0px auto;
 font-weight: bold;
 text-decoration: none;
