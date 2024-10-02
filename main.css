@@ -92,6 +92,7 @@ h3{
 nav{
 background-color: black;
 width: 100%;
+min-height: 300px;
 }
 nav *{
     text-align: center;
@@ -99,6 +100,7 @@ nav *{
 nav h3{
     margin: 0;
     text-align: center;
+    padding-top: 50px;
 }
 
 nav td{
