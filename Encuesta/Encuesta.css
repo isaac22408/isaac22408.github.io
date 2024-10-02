@@ -13,7 +13,9 @@ header *{
     border-radius: 10px;
 }
 body{
-    background-color: beige;
+    background: url("../Repository/Example-image.jpeg") no-repeat center center;
+    background-size: cover;
+    
 }
 main{
     border: 10px solid aquamarine;
