@@ -47,7 +47,9 @@ body{
     background: url(./Repository/FPrinciHeader.jpeg) center center;
     background-size: cover;
     width: 100%;
-    min-height: 300px;
+    min-height: 600px;
+    height: auto;
+    max-height: 50%;
 }
 #bienvenida h1{
  color: white;
