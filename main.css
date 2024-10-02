@@ -104,11 +104,13 @@ nav h3{
 }
 
 nav td{
-    border: 1px double gray;
+    border: 1px double rgb(36, 31, 61);
     width: 600px;
+    background-color: rgb(36, 31, 61);
 }
 nav h4{
     font-size: 30px;
+    color: white;
 }
 nav a{
     color: white;
@@ -123,5 +125,5 @@ main p{
     float: left;
 }
 #QEOCS{
-    margin: 30px;
+    margin: 70px;
 }
