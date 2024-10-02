@@ -10,6 +10,7 @@
     background-color: white;
     table-layout: auto;
     position: fixed;
+    z-index: 20;
 }
 #fix-nav{
     height: 100px;
@@ -37,6 +38,8 @@ border-radius: 30px;
     border-color: white;
 }
 
+
+
 body{
     background-color: blue;
 }
@@ -61,30 +64,49 @@ main{
     color: white;
     font-family: 'Times New Roman';
 }
-main h1{
+h1{
     text-align: center;
     font-size: 50px;
 }
-main h2{
+h2{
     text-align: center;
     font-size: 40px;
 }
-main h3{
+h3{
     font-size: 30px;
     margin: 30px;
 }
-ul li{
-    margin: 20px;
-    font-size: 25px;
+nav{
+background-color: black;
+width: 100%;
 }
-ul li ul li{
-    margin-left: 40px;
-    font-size: 25px;
+nav *{
+    text-align: center;
 }
-main a{
-    color: yellow;
+nav h3{
+    margin: 0;
+    text-align: center;
+}
+
+nav td{
+    border: 1px double gray;
+    width: 600px;
+}
+nav h4{
+    font-size: 30px;
+}
+nav a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
 
 }
 main p{
-    font-size: 20px;
+    font-size: 25px;
+}
+.Logo{
+    float: left;
+}
+#QEOCS{
+    margin: 30px;
 }
