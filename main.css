@@ -61,6 +61,7 @@ body{
  position: relative;
  top: 50px;
  max-width: fit-content;
+ font-size: 50px;
 }
 #bienvenida h2{
     color: white;
@@ -72,6 +73,7 @@ body{
     position: relative;
     top: 50px;
     max-width: fit-content;
+    font-size: 40px;
 }
 #bienvenida::before{
     content: "";
@@ -86,18 +88,6 @@ main{
     color: white;
     font-family: 'Times New Roman';
 }
-h1{
-    text-align: center;
-    font-size: 50px;
-}
-h2{
-    text-align: center;
-    font-size: 40px;
-}
-h3{
-    font-size: 30px;
-    margin: 30px;
-}
 nav{
 background-color: black;
 position: relative;
@@ -108,20 +98,24 @@ min-height: 300px;
 nav *{
     text-align: center;
 }
-nav h3{
+nav h2{
     margin: 0;
     text-align: center;
     padding-top: 50px;
+    font-size: 40px;
 }
-
+nav table{
+width: 100%;
+min-height: 100px;
+}
 nav td{
     border: 1px double rgb(36, 31, 61);
-    width: 600px;
     background-color: rgb(36, 31, 61);
 }
-nav h4{
+nav h3{
     font-size: 30px;
     color: white;
+    
 }
 nav a{
     color: white;
@@ -138,4 +132,11 @@ main p{
 }
 #QEOCS{
     margin: 70px;
+}
+#QEOCS p{
+    font-size: 30px;
+}
+#QEOCS h2{
+    text-align: center;
+    font-size: 40px;
 }
