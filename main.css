@@ -125,6 +125,7 @@ main p{
 }
 .Logo{
     float: left;
+    margin: 50px;
 }
 #QEOCS{
     margin: 70px;
