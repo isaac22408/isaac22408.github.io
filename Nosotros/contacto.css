@@ -1,40 +1,37 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-  }
-#nav-inter{
-    height: 100px;
+body{
+    background-color: rgb(150, 150, 255);
+}
+.titulo{
+    height: 500px;
+    background: url(Call\ center.png) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
-    padding: 100px auto;
-    background-color: white;
-    table-layout: auto;
-    position: fixed;
-    z-index: 20;
 }
-#fix-nav{
-    height: 100px;
+.titulo::before{
+    content: "";
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    height: 500px;
+    width: 100%;
 }
-.boton-nav-inter{
-color: black;
-font-family: Helvetica;
-text-align: center;
-padding: 20px;
-margin: 0px auto;
-width: min-content;
-font-weight: bold;
-text-decoration: none;
-font-size: 40px;
-display: flex;
-border: 3px solid black;
-border-radius: 30px;
+.titulo h1{
+    position: relative;
+    z-index: 3;
+    margin-top: 0;
+    padding: 30px;
 }
-.boton-nav-inter:hover{
-    background-color: black;
-    color: white;
+h1{
+    text-align: center;
+    margin: 30px auto;
+    font-weight: bold;
+    font-size: 60px;
 }
-#logo-nav-inter:hover{
-    background-color: aqua;
-    border-color: white;
+h2{
+    margin: 40px;
+    font-size: 30px;
+}
+form{
+    text-align: center;
+    
 }
