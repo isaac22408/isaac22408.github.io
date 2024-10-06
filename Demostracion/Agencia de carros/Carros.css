@@ -61,15 +61,19 @@ border-radius: 30px;
     margin: 0 auto;
     position: relative;
     top: 50px;
+    padding: 40px;
 }
 #Bienvenida .boton{
-    text-align: center;
-    max-width: min-content;
+    max-width: fit-content;
     position: relative;
+    top: 50px;
 }
 h2{
     text-align: center;
     font-size: 40px;
+}
+p{
+    font-size: 20px;
 }
 .boton{
     text-decoration: none;
@@ -79,8 +83,10 @@ h2{
     padding: 20px;
     border-radius: 10px;
     font-size: 30px;
-    margin: auto;
-    
+    width: fit-content;
+    margin: 20px auto;
+    border: 1px solid black;
+    display: block;
 }
 .boton:hover{
     color: black;
@@ -92,12 +98,14 @@ h2{
 }
 #somos p, #somos h2{
     color: white;
+    padding: 20px;
 }
 #agendar{
     background-color: rgb(0, 200, 00);
 }
 #agendar p, #agendar h2{
     color: black;
+    padding: 20px;
 }
 #Catalogo{
     background: url(./Repository/ImagenesCarros/Carro3.png) center center;
@@ -115,6 +123,19 @@ h2{
     top: auto;
 }
 #Catalogo h2{
+    color: white;
+    position: relative;
+    padding: 30px;
+}
+#Catalogo .boton{
+    background-color: white;
     color: black;
     position: relative;
+}
+footer{
+    background-color: black;
+    height: 500px;
+}
+footer *{
+    color: gray;
 }
