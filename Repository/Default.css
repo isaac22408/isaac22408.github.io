@@ -13,6 +13,22 @@
     position: fixed;
     z-index: 20;
 }
+#nav-inter td{
+    border-right: 1px solid rgb(128, 128, 128);
+}
+#nav-inter tr td:last-child{
+    border-right: 0 transparent;
+}
+#nav-inter tr td:hover{
+    background-color: black;
+    color: white;
+}
+#nav-inter tr td:hover > a{
+    color: white;
+} 
+#nav-inter tr #logo-nav-inter:hover{
+    background-color: aqua;
+} 
 #fix-nav{
     height: 100px;
 }
@@ -27,14 +43,14 @@ font-weight: bold;
 text-decoration: none;
 font-size: 40px;
 display: flex;
-border: 3px solid black;
+/*border: 3px solid black;*/
 border-radius: 30px;
 }
-.boton-nav-inter:hover{
+/*.boton-nav-inter:hover{
     background-color: black;
     color: white;
-}
-#logo-nav-inter:hover{
+}*/
+/*#logo-nav-inter:hover{
     background-color: aqua;
     border-color: white;
-}
+}*/
