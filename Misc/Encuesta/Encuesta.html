@@ -5,13 +5,24 @@
         <link href="image.png" rel="icon">
         <link href="Encuesta.css" rel="stylesheet">
         <link href="../../Repository/Default.css" rel="stylesheet">
+        <script src="Revisar.js"></script>
     </head>
     <body>
         <header>
-            <h1>Encuesta Generica de Videojuegos</h1>
+            <table id="nav-inter">
+                <tr>
+                <td><a class="boton-nav-inter">Ejemplo</a></td>
+                <td><a class="boton-nav-inter"><p>Ejemplo</p></a></td>
+                <td id="logo-nav-inter"><a href="../../index.html"><img class="boton-nav-inter" src="../../Omega Cat Studio Logo.png" height="100px" width="100px"></a></td>
+                <td><a class="boton-nav-inter">Ejemplo</a></td>
+                <td><a class="boton-nav-inter">Ejemplo</a></td>
+                </tr>
+            </table>
+            <p id="fix-nav">Easter Egg</p>
         </header>
         <main>
-            <form>
+            <h1>Encuesta Generica de Videojuegos</h1>
+            <form method="post" action="si.html">
                 <label for="Consola">Cual es la mejor prataforma</label>
             <input type="text" list="Consolas" name="Consola" id="Consola">
             <datalist id="Consolas">
@@ -19,10 +30,14 @@
             </datalist>
             <br>
             <label>Que tipo de juego es mejor</label>
-            <select>
+            <select name="genero">
                 <option value="RPG">RPG</option>
+                <option value="Sandbox">Sandbox</option>
             </select>
+            <input type="checkbox" name="diego" value="si">
+            <input type="submit">
             </form>
+            <h1 onclick="sumit()">:D</h1>
         </main>
     </body>
 </html>

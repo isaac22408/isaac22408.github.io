@@ -1,31 +1,24 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-header *{
-    text-align: center;
-    border: 10px solid lightblue;
-    margin: 30px auto;
-    padding: 10px;
-    width: 50%;
-    background-color: aquamarine;
-    border-radius: 10px;
-}
 body{
-    background: url("../Repository/Example-image.jpeg") no-repeat center center;
+    background: url("./_617c9f00-d3f4-4529-a9f1-beda436f55f5.jpg") center center;
     background-size: cover;
-    
+    background-repeat: no-repeat;
 }
 main{
     border: 10px solid aquamarine;
     background-color: lightblue;
     border-radius: 10px;
-    margin: 40px;
+    margin: 30px;
     min-height: 1000px;
     }
 main *{
     text-align: center;
     font-weight: bold;
     font-size: 50px;
+}
+input{
+    border-radius: 30px;
+    border: rgb(10, 20, 60) solid 5px;
+}
+input > *{
+    color: darkblue;
 }
