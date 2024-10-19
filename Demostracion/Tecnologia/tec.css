@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(230, 230, 255);
+}
+header{
+    background-color: rgb(85, 215, 255);
+}
+#hImage{
+    background: url(hexagono.png) center center;
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+    width: 700px;
+    height: 700px;
+    position: relative;
+    z-index: 10;
+}
+#hImage h1{
+    text-align: center;
+    padding-top: 300px;
+    font-size: 50px;
+    font-family: 'Courier New', sans;
+}
+#hImage h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', sans;
+}
+#zona-movimiento{
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    top: 100px;
+}
+.cuadrado{
+    position: absolute;
+    top: 200px;
+left: 40%;
+
+    height: 70px;
+    width: 70px;
+    background-color: lightblue;
+    animation: ease;
+    animation-range: 50px;
+    transition: 10s;
+}
+#quienes{
+    background-color: rgb(87, 111, 219);
+    padding: 60px;
+    text-align: center;
+}
+#quienes h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: Rockwell, "Bebas Neue", serif;
+}
+#quienes p{
+    text-align: center;
+    font-size: 40px;
+    font-family: Rockwell, "Bebas Neue", serif;
+}
