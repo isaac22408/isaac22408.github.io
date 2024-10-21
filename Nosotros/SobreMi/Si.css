@@ -1,0 +1,39 @@
+body{
+    background-color: rgba(41, 76, 189, 0.438);
+}
+.pl{
+    max-width: 31%;
+    display: inline-block;
+}
+.pl	img{
+    max-width: 200px;
+}
+header{
+padding: 30px;
+font-size: 40px;
+text-align: center;
+}
+main{
+    padding: 30px 50px;
+    font-size: 30px;
+    text-align: center;
+}
+figcaption{
+    text-align: center;
+}
+#lp{
+    background-color: white;
+    border: gold 3px solid;
+    margin: 40px;
+}
+.boton{
+    text-align: center;
+    border: darkblue 3px solid; 
+    padding: 30px;
+    text-decoration: none;
+    color: white;
+    background-color: darkblue;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 20px;
+}

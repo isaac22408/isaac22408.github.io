@@ -31,10 +31,16 @@
         <priority>0.3</priority>
     </url>
     <url>
-        <loc>https://github.omegacatec.com/Nosotros/contacto.html</loc>
-        <lastmod>2023-10-20</lastmod>
+        <loc>https://github.omegacatec.com/Nosotros/Contacto/contacto.html</loc>
+        <lastmod>2023-10-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
+    </url>
+        <url>
+        <loc>https://github.omegacatec.com/Nosotros/SobreMi/Mi.html</loc>
+        <lastmod>2023-10-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
     </url>
     <url>
         <loc>https://github.omegacatec.com/Demostracion/Subindex.html</loc>

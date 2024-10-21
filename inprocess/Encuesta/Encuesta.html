@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script type="text/javascript">
             var _iub = _iub || [];
             _iub.csConfiguration = {"siteId":3806274,"cookiePolicyId":22536435,"lang":"es","storage":{"useSiteId":true}};
             </script>
             <script type="text/javascript" src="https://cs.iubenda.com/autoblocking/3806274.js"></script>
-            <script type="text/javascript" src="//cdn.iubenda.com/cs/gpp/stub.js"></script>
-            <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+            <script type="text/javascript" src="https://cdn.iubenda.com/cs/gpp/stub.js"></script>
+            <script type="text/javascript" src="https://cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
         <title>Encuenta random</title>
         <link href="image.png" rel="icon">
         <link href="Encuesta.css" rel="stylesheet">
@@ -29,8 +31,8 @@
                 <tr>
                 <td><a class="boton-nav-inter" href="../../Demostracion/Subindex.html">Demostracion</a></td>
                 <td><a class="boton-nav-inter"><p>Ejemplo</p></a></td>
-                <td id="logo-nav-inter"><a href="../../index.html"><img class="boton-nav-inter" src="../../Omega Cat Studio Logo.png" height="100px" width="100px"></a></td>
-                <td><a class="boton-nav-inter" href="../../Nosotros/contacto.html">Contacto</a></td>
+                <td id="logo-nav-inter"><a href="../../index.html"><img alt="Omega cat logo" class="boton-nav-inter" src="../../Omega Cat Studio Logo.png" height="100px" width="100px"></a></td>
+                <td><a class="boton-nav-inter" href="../../Nosotros/SobreMi/Mi.html">Sobre Mi</a></td>
                 <td><a class="boton-nav-inter">Ejemplo</a></td>
                 </tr>
             </table>
@@ -46,11 +48,12 @@
             </datalist>
             <br>
             <label>Que tipo de juego es mejor</label>
-            <select name="genero">
+            <select title="genero" name="genero">
                 <option value="RPG">RPG</option>
                 <option value="Sandbox">Sandbox</option>
             </select>
-            <input type="checkbox" name="diego" value="si">
+            <label for="diego">Diego?</label>
+            <input title="Diego" type="checkbox" name="diego" value="si">
             <input type="submit">
             </form>
             <h1 onclick="sumit()">:D</h1>
