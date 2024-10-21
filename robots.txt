@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /junk/
+Disallow: /inprocess/
+
+Sitemap: https://github.omegacatec.com/sitemap.xml
