@@ -16,7 +16,7 @@ zona = document.getElementById("zona-movimiento");
 const oPantalla = {
     root: null,
     rootMargin: "0px",
-    threshold: 0.5,
+    threshold: 0.8,
   };
   const emf = (entries, observer) => {
     entries.forEach(entry => {
@@ -31,6 +31,7 @@ const f = (entries) => {
     entries.forEach(entry => {
         if (!entry.isIntersecting) {
             atencion = false;
+            console.log("no")
         }
     });
 };
@@ -38,20 +39,44 @@ const t = (entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
             atencion = true;
+            console.log("si")
         }
     });
 };
 const para = new IntersectionObserver(f, oPantalla);
 const sigue = new IntersectionObserver(t, oPantalla);
 sigue.observe(zona);
-para.unobserve(zona);
+para.observe(document.getElementById("servicios"));
 document.getElementById("zona-movimiento").children
 const intervalId = setInterval(() => {
     if (atencion) {
         Array.from(document.getElementById("zona-movimiento").children).forEach(i => {
             mover(i);
         });
-    } else {
-        clearInterval(intervalId); // Stop the interval when atencion is false
     }
 }, 5000);
+const Lista = document.getElementById("mover").children[1];
+const bi = document.getElementById("bi");
+const bd = document.getElementById("bd");
+let ver = 0;
+
+const checa = () => {
+    const items = Lista.children;
+    for (let i = 0; i < items.length; i++) {
+        items[i].style.display = i === ver ? 'block' : 'none';
+    }
+};
+
+bi.addEventListener('click', () => {
+    ver = (ver > 0) ? ver - 1 : Lista.children.length - 1;
+    checa();
+});
+
+bd.addEventListener('click', () => {
+    ver = (ver < Lista.children.length - 1) ? ver + 1 : 0;
+    checa();
+});
+setInterval(() => {
+    ver = (ver < Lista.children.length - 1) ? ver + 1 : 0;
+    checa();}, 5000);
+checa();

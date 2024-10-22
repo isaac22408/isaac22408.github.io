@@ -34,13 +34,11 @@ header{
 .cuadrado{
     position: absolute;
     top: 200px;
-left: 40%;
-
+    left: 40%;
     height: 70px;
     width: 70px;
     background-color: lightblue;
     animation: ease;
-    animation-range: 50px;
     transition: 10s;
 }
 #quienes{
@@ -57,4 +55,34 @@ left: 40%;
     text-align: center;
     font-size: 40px;
     font-family: Rockwell, "Bebas Neue", serif;
+}
+#servicios{
+    background-color: rgba(87, 111, 219, 0.712);
+    text-align: center;
+    padding: 40px;
+}
+#mover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+#mover *{
+    display: inline-block;
+}
+#mover > ul{
+    width: 500px;
+    height: 600px;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 20px;
+}
+#mover > ul > li{
+    width: 500px;
+    height: 600px;
+}
+#bi, #bd{
+    padding: 10px;
+    background-color: gray;
+    border-radius: 10px;
 }
