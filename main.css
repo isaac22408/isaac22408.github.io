@@ -68,6 +68,7 @@ nav h2{
 nav table{
 width: 100%;
 min-height: 100px;
+overflow: scroll;
 }
 nav td{
     border: 1px double rgb(36, 31, 61);

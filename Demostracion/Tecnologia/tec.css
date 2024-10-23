@@ -33,13 +33,16 @@ header{
 }
 .cuadrado{
     position: absolute;
-    top: 200px;
-    left: 40%;
     height: 70px;
     width: 70px;
     background-color: lightblue;
     animation: ease;
     transition: 10s;
+}
+.puntos{
+    padding: 10px;
+    background-color: lightblue;
+    border-radius: 10px;
 }
 #quienes{
     background-color: rgb(87, 111, 219);

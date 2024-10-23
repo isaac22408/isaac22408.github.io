@@ -3,5 +3,6 @@ Disallow: /private/
 Disallow: /tmp/
 Disallow: /junk/
 Disallow: /inprocess/
+Disallow: /Repository/
 
 Sitemap: https://github.omegacatec.com/sitemap.xml
