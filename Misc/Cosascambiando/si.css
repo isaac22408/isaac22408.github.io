@@ -7,6 +7,9 @@ top: 60%;
 left: 80%;
 border-radius: 40px;
 }
+main{
+    min-height: 1500px;
+}
 #UI{
     background-color: lightblue;
     width: 30%;
@@ -23,4 +26,15 @@ border-radius: 40px;
     background-color: gray;
     width: max-content;
 
+}
+footer{
+    height: 500px;
+    background-color: black;
+    padding: 30px;
+}
+footer *{
+    color: gray;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
