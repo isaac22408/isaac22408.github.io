@@ -4,5 +4,5 @@ Disallow: /tmp/
 Disallow: /junk/
 Disallow: /inprocess/
 Disallow: /Repository/
-
+Disallow: /Respuesta/
 Sitemap: https://github.omegacatec.com/sitemap.xml
