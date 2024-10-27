@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Encuenta random</title>
+        <title>Encuenta Chafa</title>
         <link href="image.png" rel="icon">
         <link href="Encuesta.css" rel="stylesheet">
         <link href="/Repository/Default.css" rel="stylesheet">
@@ -35,21 +35,26 @@
             <p id="fix-nav">Easter Egg</p>
         </header>
         <main>
-            <h1>Encuesta Generica de Videojuegos</h1>
-            <form method="post" action="si.html">
+            <h1>Encuesta Chafa de Videojuegos</h1>
+            <form method="post" action="./Repuesta/">
                 <label for="Consola">Cual es la mejor prataforma</label>
-            <input type="text" list="Consolas" name="Consola" id="Consola">
+            <input required type="text" list="Consolas" name="Consola" id="Consola">
             <datalist id="Consolas">
                 <option value="Nintendo">Nintendo</option>
             </datalist>
             <br>
             <label>Que tipo de juego es mejor</label>
-            <select title="genero" name="genero">
+            <select required title="genero" name="genero">
                 <option value="RPG">RPG</option>
                 <option value="Sandbox">Sandbox</option>
             </select>
-            <label for="diego">Diego?</label>
-            <input title="Diego" type="checkbox" name="diego" value="si">
+            <br>
+            <label for="diego">Diego Es Gey?</label>
+            <label for="diego">Si</label>
+            <input required title="Diego" type="radio" name="diego" value="si">
+            <label for="diego">No</label>
+            <input title="Diego" type="radio" name="diego" value="no">
+            <br>
             <input type="submit">
             </form>
             <h1 onclick="sumit()">:D</h1>
