@@ -55,3 +55,14 @@ border-radius: 30px;
     background-color: aqua;
     border-color: white;
 }*/
+@media screen and (max-width: 800px){
+    #nav-inter{
+        position: static;
+        overflow: scroll;
+    }
+    #fix-nav{
+        content: none;
+        height: 0;
+    }
+    
+}
