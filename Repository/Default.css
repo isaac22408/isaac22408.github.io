@@ -57,12 +57,9 @@ border-radius: 30px;
 }*/
 @media screen and (max-width: 800px){
     #nav-inter{
-        position: static;
+        position: absolute;
         overflow: scroll;
-    }
-    #fix-nav{
-        content: none;
-        height: 0;
+        width: 100vw;
     }
     
 }
