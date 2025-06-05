@@ -1,15 +1,17 @@
 let sWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 let sHeight = (window.innerHeight > 0) ? window.innerHeight : screen.height;
 
+const zona = document.getElementById("zona-movimiento");
+const servicio = document.getElementById("servicios");
 const generate = (n) => {
     for (let i = 0; i <= n;i++){
 
     }
 }
-
+console.log()
 const mover = (o) => {
-    o.style.top = `${100 + Math.floor(Math.random() * 500)}px`;
-    o.style.left = `${Math.floor(Math.random() * (sWidth-95))}px`;
+    o.style.top = `${Math.floor(Math.random() * zona.clientHeight)}px`;
+    o.style.left = `${Math.floor(Math.random() * (zona.clientWidth-99))}px`;
     o.style.rotate = `${Math.floor(Math.random() * 360)}deg`;
 };
 
@@ -17,12 +19,10 @@ const cuadros = [];
 for (let i = 0; i < 100;i++) {
     cuadros.push(document.getElementById("zona-movimiento").appendChild(document.createElement("div")));
     cuadros[i].classList.add("cuadrado");
-    cuadros[i].style.top = `${100 + Math.floor(Math.random() * 500)}px`;
-    cuadros[i].style.left = `${Math.floor(Math.random() * (sWidth-70))}px`;
+    cuadros[i].style.top = `${Math.floor(Math.random() * zona.clientHeight)}px`;
+    cuadros[i].style.left = `${Math.floor(Math.random() * (zona.clientWidth-99))}px`;
 }
 
-const zona = document.getElementById("zona-movimiento");
-const servicio = document.getElementById("servicios");
 
 const oPantalla = {
     root: null,
@@ -58,9 +58,10 @@ para.observe(zona);
 
 const intervalId = setInterval(() => {
     if (atencion) {
-        Array.from(zona.children).forEach(i => {
+        Array.from(document.getElementsByClassName("cuadrado")).forEach(i => {
             mover(i);
         });
+        
     }
 }, 5000);
 

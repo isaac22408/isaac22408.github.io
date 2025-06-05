@@ -1,5 +1,6 @@
 body{
     background-color: rgb(230, 230, 255);
+    top: 100px;
 }
 header{
     background-color: rgb(85, 215, 255);
@@ -29,10 +30,10 @@ header{
     font-family: 'Courier New', sans;
 }
 #zona-movimiento{
-    position: absolute;
     min-height: 500px;
     width: 100%;
-    top: 100px;
+    display: flex;
+    overflow: hidden;
 }
 .cuadrado{
     position: absolute;
@@ -41,6 +42,7 @@ header{
     background-color: lightblue;
     animation: ease;
     transition: 20s;
+    overflow: hidden;
 }
 .puntos{
     padding: 10px;
