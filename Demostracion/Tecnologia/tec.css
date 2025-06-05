@@ -3,6 +3,9 @@ body{
 }
 header{
     background-color: rgb(85, 215, 255);
+    display: flex;
+    align-items: stretch;
+    overflow: hidden;
 }
 #hImage{
     background: url(hexagono.png) center center;
@@ -27,7 +30,7 @@ header{
 }
 #zona-movimiento{
     position: absolute;
-    height: 500px;
+    min-height: 500px;
     width: 100%;
     top: 100px;
 }
@@ -37,7 +40,7 @@ header{
     width: 70px;
     background-color: lightblue;
     animation: ease;
-    transition: 10s;
+    transition: 20s;
 }
 .puntos{
     padding: 10px;
@@ -74,15 +77,25 @@ header{
     display: inline-block;
 }
 #mover > ul{
-    width: 500px;
-    height: 600px;
+    width: min-content;
+    height: min-content;
     overflow: hidden;
     background-color: white;
     border-radius: 20px;
 }
 #mover > ul > li{
-    width: 500px;
-    height: 600px;
+    width: min-content;
+    height: min-content;
+    padding: 20px;
+}
+#mover > ul > li > figure > img{
+    border-radius: 20px;
+}
+#mover > ul > li > figure > figcaption{
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
 }
 #bi, #bd{
     padding: 10px;

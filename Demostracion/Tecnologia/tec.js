@@ -1,6 +1,12 @@
 let sWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 let sHeight = (window.innerHeight > 0) ? window.innerHeight : screen.height;
 
+const generate = (n) => {
+    for (let i = 0; i <= n;i++){
+
+    }
+}
+
 const mover = (o) => {
     o.style.top = `${100 + Math.floor(Math.random() * 500)}px`;
     o.style.left = `${Math.floor(Math.random() * (sWidth-95))}px`;
@@ -8,7 +14,7 @@ const mover = (o) => {
 };
 
 const cuadros = [];
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i < 100;i++) {
     cuadros.push(document.getElementById("zona-movimiento").appendChild(document.createElement("div")));
     cuadros[i].classList.add("cuadrado");
     cuadros[i].style.top = `${100 + Math.floor(Math.random() * 500)}px`;
